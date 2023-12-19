@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    background-image: url(imagens/achemist.jpg);
+    
+    
+    
+    
+}
+
+#header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#div-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+
+
+.icones{
+    padding: 20px;
+}
+
+
+
+.icone-2{
+    max-width: 30px;
+    max-height: 30px;
+    margin:8px 12px 8px 0px;
+    
+}
+
+.main{
+    margin: 40px 0px 0px 0px ;
+    background-color: rgb(20, 24, 24);
+    border-radius: 16px;
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 800px;
+    
+}
+
+.bordas{
+    font-size: 19px;
+    font-weight: 300;
+    font-style: arial;
+    font-family: "Roboto", Sans-serif;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 20px;
+    margin-bottom: 12px;
+
+}
+
+.bordas-p{
+    color:rgb(172, 171, 171);
+    margin-bottom: 8px;
+}
+
+
+
+.bordas h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bordas a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #970000;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    padding: 16px;
+    margin-top: 8px;
+    
+}
+
+.bordas-ins{
+    padding: 8px;
+    margin-top: 12px;
+    border-radius: 8px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(83, 83, 83);
+    color: rgb(160, 160, 160);
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-casa{
+    
+    width: 280px;
+   
+    margin: 16px;
+}
+
+.div-casa{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(25, 0, 255);
+    padding: 20px;
+}
+
+.div-footer{
+    display: flex;
+    align-items: center;
+    
+}
+
+footer h4{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+footer p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 8px;
+}
+
+.div-footer1 a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #970000;
+    border-radius: 8px;
+    color: white;
+    font-weight: 800;
+    padding: 16px;
+    margin-top: 8px;
+}
+
+@media (max-width: 800px) {
+    .icone-1{
+       width: 300px;
+    }
+    
+    .div-footer{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .div-footer img{
+        margin-bottom: 8px;
+
+    }
+
+    a{
+        text-align: center;
+    }
+    .div-footer img{
+        margin: 0 auto;
+        margin-bottom:20px ;
+        width:200px;
+    }
+    .img-casa{
+        width: 250px;
+        
+        
+    }
+    
+}
+    
